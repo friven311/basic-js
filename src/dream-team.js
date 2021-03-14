@@ -5,5 +5,5 @@ if (!Array.isArray(members)) {
   return false;
 }
   return members.filter(str => isString(str))
-    .map(str => str.trimLeft()[0].toUpperCase()).sort().join('');
+    .map(str => str.trimLeft()[0].toUpperCase()).sort().join('') ;
 }

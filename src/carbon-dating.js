@@ -13,5 +13,5 @@ module.exports = function dateSample(str = 0) {
   if (isNaN(activity)) return false;
   if (!isAdequateValue(activity)) return false;
 
-  return Math.ceil(Math.log(MODERN_ACTIVITY / activity) / K);
+  return Math.ceil(Math.log(MODERN_ACTIVITY / activity) / K);  
 };

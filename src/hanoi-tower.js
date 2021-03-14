@@ -8,4 +8,4 @@ module.exports = function calculateHanoi(disksNumber, turnsSpeed) {
     seconds: seconds
   };
   return result;
-};
+ };

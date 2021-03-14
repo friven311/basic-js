@@ -52,4 +52,4 @@ module.exports = function repeater( str, options ) {
   masanys = masanys.map((a) => a + anys2_0)
 
   return masanys.join(separator);
-};
+ };
